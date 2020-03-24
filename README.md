@@ -6,7 +6,7 @@ A simple Role which ensure that a list of packages are installed
 Requirements
 ------------
 
-N/A
+None
 
 Role Variables
 --------------
@@ -16,7 +16,7 @@ install_default_rpm_packages_list: List of package we want to manage
 Dependencies
 ------------
 
-N/A
+None
 
 Example Playbook
 ----------------
