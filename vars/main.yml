@@ -1,0 +1,48 @@
+---
+install_default_rpm_packages_list_el7:
+- curl
+- bind-utils
+- zip
+- unzip
+- lsof
+- mailx
+- sos
+- rsync
+- screen
+- vim-enhanced
+- sysstat
+- lsscsi
+- net-snmp
+- nc
+- strace
+- sudo
+- tcpdump
+- bash-completion
+- mlocate
+- policycoreutils-python
+- tree
+- telnet
+
+install_default_rpm_packages_list_el8:
+- curl
+- bind-utils
+- zip
+- unzip
+- lsof
+- mailx
+- sos
+- rsync
+- screen
+- vim-enhanced
+- sysstat
+- lsscsi
+- net-snmp
+- nc
+- strace
+- sudo
+- tcpdump
+- bash-completion
+- mlocate
+- policycoreutils-python-utils
+- tree
+- telnet

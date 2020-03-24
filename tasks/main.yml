@@ -1,0 +1,21 @@
+---
+- block:
+  - debug:
+      msg: "Check that following packages are installed: {{ install_default_rpm_packages_list_el7 | join(' ') }}"
+  
+  - name: "RHEL7: Ensure that a list of packages are installed"
+    package:
+      name: "{{ install_default_rpm_packages_list_el7 }}"
+      state: present
+  when: ansible_distribution_major_version == "7"
+  
+- block:
+  - debug:
+      msg: "Check that following packages are installed: {{ install_default_rpm_packages_list_el8 | join(' ') }}"
+
+  - name: "RHEL8: Ensure that a list of packages are installed"
+    package:
+      name: "{{ install_default_rpm_packages_list_el8 }}"
+      state: present
+  when: ansible_distribution_major_version == "8"
+
